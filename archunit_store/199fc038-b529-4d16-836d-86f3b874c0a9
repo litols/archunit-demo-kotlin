@@ -1,0 +1,4 @@
+Constructor <com.leafgraph.archunit.demo.archunitdemo.ViolatedController.<init>(com.leafgraph.archunit.demo.archunitdemo.SampleController)> has parameter of type <com.leafgraph.archunit.demo.archunitdemo.SampleController> in (ViolatedController.kt:0)
+Field <com.leafgraph.archunit.demo.archunitdemo.ViolatedController.sampleController> has type <com.leafgraph.archunit.demo.archunitdemo.SampleController> in (ViolatedController.kt:0)
+Method <com.leafgraph.archunit.demo.archunitdemo.ViolatedController.getSampleController()> has return type <com.leafgraph.archunit.demo.archunitdemo.SampleController> in (ViolatedController.kt:0)
+Method <com.leafgraph.archunit.demo.archunitdemo.ViolatedController.violated()> calls method <com.leafgraph.archunit.demo.archunitdemo.SampleController.sample()> in (ViolatedController.kt:13)
