@@ -38,3 +38,8 @@ No. we need to apply freezing feature per method. Thus, the following code snipp
 // ArchTests != ArchRule. ArchRule.`in` method is deprecated...
 val layerCheck = FreezingArchRule.freeze(ArchTests.`in`(ControllerArchTest::class.java))
 ```
+
+## Reference
+
+- https://github.com/TNG/ArchUnit
+- https://www.archunit.org/userguide/html/000_Index.html#_introduction
